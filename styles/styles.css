@@ -61,7 +61,7 @@ nav .navbar-img{
   width: 30%;
   background: url('../images/shapes/shape-6.png');
   background-repeat: no-repeat;
-  background-size:calc(100%);
+  background-size: contain;
   background-position: right bottom;
 }
 .nav-title{
@@ -178,8 +178,6 @@ nav .navbar-img .nav-img{
   background-position: bottom right,top left;
 }
 
-
-
 .develop-container1{
   display: flex;
   justify-content: space-between;
@@ -292,3 +290,58 @@ footer{
   line-height: 24px;
   letter-spacing: 1%;
 }
+
+/* responsive part satart */
+
+@media screen and (max-width: 576px) {
+  .container{
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+  }
+  section{
+    margin: 40px 10px;
+
+  }
+  .btn{
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+  nav{
+    flex-direction: column-reverse;
+  }
+  nav .navbar-img{
+    background: none;
+  }
+  .nav-title h1,.my-mission h1,.safty-content h3,.sfty h2{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  nav .navbar-img .nav-img,.safty-content,.mission,.nav-content,.mission-img{
+    width: 100%;
+    height: 100%;
+  }
+  .sfty-img .safe-img{
+    width: 100%;
+    height: 100%;
+  }
+  .sfty-img{
+    width: 70%;
+    height: 60%;
+  }
+  .mission-container,.develop-container1,.safty-container{
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  footer{
+    padding: 6px 0;
+  }
+  .main-footer h3{
+    font-size: 22px;
+  }
+  .main-footer small{
+    font-size: 12px;
+  }
+}
+
