@@ -1,0 +1,294 @@
+/* import fonts family */
+/* font of yeseve one */
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+/* fonts of popins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+/* lobstar */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* reset web page */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #FFF;
+}
+
+/* shared styles */
+
+.font-popins{
+  font-family: "Poppins", sans-serif;
+}
+.yeseve-one{
+  font-family: "Yeseva One", serif;
+}
+.container{
+width: 90%;
+height: calc(100% - 100px);
+margin: 0 auto;
+}
+section{
+  margin: 70px;
+}
+.btn {
+  background-color: #FF5959;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 10px 0px;
+}
+
+/* end of shared styles */
+
+/* start nav bar design */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav-content{
+  width: 50%;
+}
+nav .navbar-img{
+  width: 30%;
+  background: url('../images/shapes/shape-6.png');
+  background-repeat: no-repeat;
+  background-size:calc(100%);
+  background-position: right bottom;
+}
+.nav-title{
+  border-left: 1px solid rgb(255, 89, 89);
+  border-width: 7px;
+  border-radius: 10px;
+  padding-left: 12px;
+}
+.nav-title h1{
+  font-family: Yeseva One;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.mission-2024{
+  color: rgb(255, 173, 90);
+}
+.nav-description{
+  color: rgb(62, 62, 62);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.nav-title .nav-scroll{
+  color: rgb(67, 67, 67);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+nav .navbar-img .nav-img{
+   width: 340px;
+  height: 400px;
+}
+
+/* my mission 3024 area */
+
+.my-mission{
+  background: url('../images/shapes/shape-1.png'),url('../images/shapes/shape-2.png');
+  background-repeat: no-repeat;
+  background-size: calc(80% - 950px);
+  background-position: bottom right,top left;
+}
+.my-mission h1{
+  text-align: center;
+  color: rgb(19, 16, 58);
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0%;
+}
+
+.mission-container{
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  gap: 10px;
+  margin-top: 50px;
+  z-index: 5;
+}
+
+.mission{
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 26px;
+  background: rgba(79, 157, 166, 0.1);
+}
+
+.mission .mission-img{
+  width: 126px;
+  height: 126px;
+}
+.mission{
+  /* nestig */
+ h3{
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+ }
+ p{
+  color: rgb(66, 66, 66);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 40px;
+ }
+}
+
+/* develop section */
+
+.develop{
+  background: url('../images/shapes/shape-1.png'),url('../images/shapes/shape-1.png');
+  background-repeat: no-repeat;
+  background-size: calc(80% - 950px);
+  background-position: bottom right,top left;
+}
+
+
+
+.develop-container1{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.dev-content{
+  width: 60%;
+}
+.dev-content h3{
+  color: rgb(51, 51, 51);
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.dev-content p{
+color: rgb(62, 62, 62);
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.dev-img .dev-imgs{
+  width: 400px;
+  height: 400px;
+}
+
+/* safty area design */
+
+.sfty h2{
+font-family: Poppins;
+font-size: 48px;
+font-weight: 700;
+line-height: 74px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.safty-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 60px;
+}
+.safty-content{
+  width: 60%;
+
+}
+.sfty-img{
+  text-align: center;
+  background: url('../images/shapes/shape-1.png'),url('../images/shapes/shape-1.png'),url('../images/shapes/shape-7.png');
+  background-repeat: no-repeat;
+  background-size: calc(100% - 100px);
+  background-position: bottom right,top left,center center;
+  padding: 50px 50px;
+  width: 30%;
+}
+.sfty-img .safe-img{
+  width: 229px;
+  height: 459px;
+}
+
+.safty-content h3{
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 131%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.safty-content p{
+  color: rgb(62, 62, 62);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* footer part */
+
+footer{
+  background: rgb(11, 13, 23);
+  text-align: center;
+  padding: 20px 0px;
+}
+.main-footer h3{
+  font-family: Lobster;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: white;
+}
+.main-footer small{
+  color: rgb(217, 219, 225);
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1%;
+}
